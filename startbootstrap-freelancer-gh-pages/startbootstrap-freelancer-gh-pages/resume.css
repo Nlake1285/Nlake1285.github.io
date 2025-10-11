@@ -1,0 +1,108 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
+
+/* Base Styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #333;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #4791b3;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1.2rem;
+    color: #002c5c;
+}
+
+/* Section Styling */
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.experience-item,
+.project-item {
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+    padding-left: 2rem;
+}
+
+ol {
+    padding-left: 2rem;
+}
+
+li {
+    margin-bottom: 0.3rem;
+}
+
+/* Link Styling */
+a {
+    color: #004080;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Typography for Emphasis */
+strong {
+    font-weight: bold;
+}
+
+em {
+    color: #555;
+}
+
+/* Horizontal Rule Styling */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 2rem 0;
+}
+
+/* Mobile Responsive Layout */
+@media (max-width: 600px) {
+    body {
+        font-size: 0.95rem;
+    }
+
+    header, footer {
+        padding: 1rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+}
