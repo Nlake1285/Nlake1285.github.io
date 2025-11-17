@@ -67,6 +67,37 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Return Home Button Styling */
+.return-home-container {
+    padding: 1rem;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.return-home-btn {
+    display: inline-block;
+    background-color: #4791b3;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.return-home-btn:hover {
+    background-color: #3a7a98;
+    text-decoration: none;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.return-home-btn i {
+    margin-right: 0.5rem;
+}
+
 /* Typography for Emphasis */
 strong {
     font-weight: bold;
